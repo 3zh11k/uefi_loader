@@ -1,0 +1,11 @@
+[package]
+name = "uefi_loader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = { version = "0.4.17", features = ["release_max_level_info"] }
+uefi = "0.17"
+uefi-services = "0.14"
